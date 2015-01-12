@@ -61,8 +61,10 @@ nnoremap <Plug>Protean-Repeat  :call <SID>protean_repeat()<CR>
 nnoremap <Plug>Protean-Replace :call <SID>protean("n")<CR>
 xnoremap <Plug>Protean-Replace :call <SID>protean("v")<CR>
 
-nmap gr <Plug>Protean-Replace
-xmap gr <Plug>Protean-Replace
+if !hasmapto("<Plug>Protean-Replace", "nv")
+    nmap gr <Plug>Protean-Replace
+    xmap gr <Plug>Protean-Replace
+endif
 
 let &cpoptions = s:save_cpo
 unlet s:save_cpo
