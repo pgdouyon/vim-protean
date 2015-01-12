@@ -2,7 +2,7 @@ Protean
 =======
 
 > "We take one each, and when Harry sets the date of the next meeting he'll
-> change the numbers on **his** coin, and because I've put a Protean Charm on
+> change the numbers on *his* coin, and because I've put a Protean Charm on
 > them, they'll all change to mimic his."
 
 Protean is a find/replace plugin that replaces the current word under cursor
