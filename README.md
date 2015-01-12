@@ -18,7 +18,7 @@ cursor will automatically be moved to the next match.
 
 Use `.` to repeat the substitution or `n` to skip to the next match
 
-By default Protean maps `gr` (mnemonic 'global replace') to
+By default Protean maps `s` (mnemonic 'substitution') to
 `<Plug>Protean-Replace`, but these mappings can be overriden by specifying your
 own.
 
