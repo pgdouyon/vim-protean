@@ -16,7 +16,9 @@ let s:save_cpo = &cpoptions
 set cpoptions&vim
 
 function! s:protean(mode)
-    let @/ = s:get_protean_selection(a:mode)
+    let target = s:get_protean_selection(a:mode)
+    let @/ = target
+    call histadd("search", target)
     call feedkeys("cgn", "nt")
     augroup protean
         autocmd!
