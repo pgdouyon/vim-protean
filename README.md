@@ -16,11 +16,13 @@ Use `<Plug>Protean-Replace` to change the current word under cursor or current
 visual selection.  Type in the replacement and upon exiting insert mode, the
 cursor will automatically be moved to the next match.
 
-Use `.` to repeat the substitution or `n` to skip to the next match
+Use `.` to repeat the substitution or `n` to skip to the next match.  Call
+`<Plug>Protean-Finish` to make the last substitution without moving the cursor
+again.
 
 By default Protean maps `s` (mnemonic 'substitution') to
-`<Plug>Protean-Replace`, but these mappings can be overriden by specifying your
-own.
+`<Plug>Protean-Replace` and `S` to `<Plug>Protean-Finish`, but these mappings
+can be overriden by specifying your own.
 
 
 Requirements
